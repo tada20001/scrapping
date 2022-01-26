@@ -1,0 +1,7 @@
+*.xlsx
+DrawWordcloud.py
+구글 스칼라.ipynb
+__pycache__/
+.ipynb_checkpoints/
+*.json
+.vs/
