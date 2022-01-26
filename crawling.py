@@ -51,7 +51,7 @@ headers = {
 
 params = set_parms('samsung', start_year, end_year)
 
-html = requests.get('https://scholar.google.com/scholar', params=params, headers=headers, proxies=proxies)
+html = requests.get('https://scholar.google.com/scholar', params=params, )
 soup = BeautifulSoup(html.content, 'html.parser')
 st.write(params)
 st.write(soup.text)
